@@ -19,3 +19,13 @@ start() {
         nohup ./bee start --config config$i.yaml > log$i.log 2>&1 &
     done
 }
+
+cashoutAll() {
+for i in {01..$NODE}
+do
+    current_port=$(grep 'localhost' cashout.sh |awk -F ':' '{print $NF}')
+    target_port=8"$i"5
+    sed -ri "s/$current_port/$target_port/g" cashout.sh
+    nohup bash cashout.sh cashout-all > "$i"out.log 2>&1 &
+done
+}
