@@ -1,0 +1,41 @@
+api-addr: :8003
+bootnode:
+- /ip4/47.97.42.65/tcp/1634/p2p/16Uiu2HAmQxzcHZyHkH71BiX6ztx1JYcwPTzhUs9BLar7sMLunT3y
+bootnode-mode: false
+clef-signer-enable: false
+clef-signer-endpoint: ""
+clef-signer-ethereum-address: ""
+config: /root/.bee.yaml
+cors-allowed-origins: []
+data-dir: /mnt/swarm/dbee
+db-block-cache-capacity: "33554432"
+db-capacity: "25000000"
+db-disable-seeks-compaction: false
+db-open-files-limit: "200"
+db-write-buffer-size: "33554432"
+debug-api-addr: :8005
+debug-api-enable: true
+gateway-mode: false
+global-pinning-enable: false
+help: false
+nat-addr: ""
+network-id: "1"
+p2p-addr: :8004
+p2p-quic-enable: false
+p2p-ws-enable: false
+password: "123456"
+password-file: ""
+payment-early: "1000000000000"
+payment-threshold: "100000000000"
+payment-tolerance: "500000000000"
+resolver-options: []
+standalone: false
+swap-enable: true
+swap-endpoint: <your infura api>
+swap-factory-address: ""
+swap-initial-deposit: "10000000000000000"
+tracing-enable: false
+tracing-endpoint: 127.0.0.1:8001
+tracing-service-name: bee
+verbosity: "4"
+welcome-message: "Hello Abmatrix"

@@ -27,7 +27,8 @@ sudo apt install -y jq
 
 ## 生成配置文件
 
-执行scripts/deploy.sh脚本的 mock函数，生成不同的配置文件。注意每个配置文件中的端口号需不同。
+执行scripts/deploy.sh脚本的 mock函数，生成不同的配置文件。
+**注意每个配置文件中的端口号需不同, 注意存储的目录 `data-dir`**
 
 ## 启动节点
 
