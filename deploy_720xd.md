@@ -22,7 +22,7 @@ tar -xvf pack.tar
 
 安装相关工具
 ```
-sudo apt install -y jq
+sudo apt install -y jq dstat htop curl
 ```
 
 ## 生成配置文件
