@@ -14,9 +14,15 @@ sudo mount /dev/sdb /mnt
 sudo chown -R jyjf:jyjf /mnt
 ```
 
-下载bee二进制文件
+下载bee二进制文件（0.5.3）
 ```
 wget https://github.com/ABMatrix/bee/releases/download/v0.5.3-i/pack.tar
+tar -xvf pack.tar
+```
+
+下载0.6.2
+```
+wget https://github.com/ABMatrix/bee/releases/download/v0.6.2-i/pack.tar
 tar -xvf pack.tar
 ```
 
