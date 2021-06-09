@@ -40,7 +40,7 @@ swap-factory-address: ""
 swap-initial-deposit: "10000000000000000"
 swap-legacy-factory-addresses: []
 tracing-enable: false
-tracing-endpoint: 127.0.0.1:6831
+tracing-endpoint: 127.0.0.1:8001
 tracing-service-name: bee
 transaction: ""
 verbosity: debug
